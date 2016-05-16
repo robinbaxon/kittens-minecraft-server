@@ -1,0 +1,36 @@
+ERROR: system: Crop is already defined in that package
+ERROR: system: AutoSpawner is already defined in that package
+INFO: MineTweaker: Building registry
+INFO: MineTweaker: Sucessfully built item registry
+INFO: Adding command minetweaker
+INFO: Adding minetweaker command mfr
+INFO: Removing 1 recipes
+INFO: Adding recipe for Isolator
+INFO: Removing 1 recipes
+INFO: Adding recipe for Sequencer
+INFO: Removing 1 recipes
+INFO: Adding recipe for Polymeriser
+INFO: Removing 1 recipes
+INFO: Adding recipe for Inoculator
+INFO: Removing 1 recipes
+INFO: Adding recipe for Analyser
+INFO: Removing 1 recipes
+INFO: Adding recipe for Incubator
+INFO: Removing 1 recipes
+INFO: Adding recipe for Genepool
+INFO: Removing 1 recipes
+INFO: Adding recipe for Acclimatiser
+INFO: Removing 1 recipes
+INFO: Adding recipe for Lumbermill
+INFO: Removing 1 recipes
+INFO: Adding recipe for Fruit Press
+INFO: Removing 1 recipes
+INFO: Adding recipe for Brewery
+INFO: Removing 1 recipes
+INFO: Adding recipe for Distillery
+INFO: Removing 0 recipes
+INFO: Removing 0 recipes
+INFO: Adding recipe for Voidstone
+INFO: Removing 1 recipes
+INFO: Adding recipe for Chisel
+INFO: Adding recipe for Sanguine Scientiem
