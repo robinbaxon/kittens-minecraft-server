@@ -1,3 +1,3 @@
 0 2,8,14,20 * * * /etc/init.d/minecraft backup
 30 * * * * /home/minecraft/cronrestart.sh
-* * * * * /home/baxon/logandgraphmemory.sh $(whoami) /home/minecraft/memorylogs memorylog.dat
+* * * * * /home/minecraft/logandgraphmemory.sh $(whoami) /home/minecraft/memorylogs memorylog.dat
