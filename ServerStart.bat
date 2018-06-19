@@ -4,7 +4,7 @@
 
 call settings.bat
 
-if NOT EXIST minecraft_server.1.7.10.jar (
+if NOT EXIST %JARFILE% (
     goto install
 )
 if NOT EXIST libraries\%LAUNCHWRAPPER% (
@@ -54,22 +54,22 @@ if %ERRORLEVEL% EQU 0 (
     exit /B
 )
 
-del /f /q autostart.stamp > nul 2>1
+del /f /q autostart.stamp > nul 2>&1
 
 :startserver
 echo Starting server
-java -server -Xms512M -Xmx2048M -XX:PermSize=256M -XX:+UseParNewGC -XX:+CMSIncrementalPacing -XX:+CMSClassUnloadingEnabled -XX:ParallelGCThreads=2 -XX:MinHeapFreeRatio=5 -XX:MaxHeapFreeRatio=10 -jar FTBServer-1.7.10-1558.jar nogui
+java -server -Xmx%MAX_RAM% -XX:PermSize=%PERMGEN_SIZE% %JAVA_PARAMETERS% -jar %FORGEJAR% nogui
 
 :server_loop
 if exist autostart.stamp (
-    del /f /q autostart.stamp > nul 2>1
+    del /f /q autostart.stamp > nul 2>&1
     echo If you want to completely stop the server process now, press Ctrl+C before the time is up!
     for /l %%i in (5,-1,1) do (
         echo Restarting server in %%i
         choice /t 1 /d y > nul
     )
     echo Starting server now
-    java -server -Xms512M -Xmx2048M -XX:PermSize=256M -XX:+UseParNewGC -XX:+CMSIncrementalPacing -XX:+CMSClassUnloadingEnabled -XX:ParallelGCThreads=2 -XX:MinHeapFreeRatio=5 -XX:MaxHeapFreeRatio=10 -jar FTBServer-1.7.10-1558.jar nogui
+    java -server -Xmx%MAX_RAM% %JAVA_PARAMETERS% -jar %FORGEJAR% nogui
     echo Server process finished
     goto :server_loop
 )

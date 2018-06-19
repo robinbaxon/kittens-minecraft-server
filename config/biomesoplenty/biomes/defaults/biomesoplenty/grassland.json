@@ -1,0 +1,283 @@
+{
+  "enableRain": true,
+  "canGenerateRivers": true,
+  "beachBiomeLocation": "biomesoplenty:gravel_beach",
+  "rainfall": 0.7,
+  "skyColor": -1,
+  "guiColour": 8379261,
+  "fogDensity": 1.0,
+  "hasBiomeEssence": true,
+  "variationBelow": 6.0,
+  "variationAbove": 25.0,
+  "waterColor": 16777215,
+  "seaFloorBlock": {
+    "block": "minecraft:dirt",
+    "properties": {
+      "snowy": "false",
+      "variant": "dirt"
+    }
+  },
+  "fillerBlock": {
+    "block": "minecraft:dirt",
+    "properties": {
+      "snowy": "false",
+      "variant": "dirt"
+    }
+  },
+  "averageHeight": 64.0,
+  "topBlock": {
+    "block": "minecraft:grass",
+    "properties": {
+      "snowy": "false"
+    }
+  },
+  "fogColor": -1,
+  "temperature": 0.6,
+  "canGenerateVillages": true,
+  "canSpawnInBiome": true,
+  "enableSnow": false,
+  "generators": {
+    "cattail": {},
+    "oases": {},
+    "trees": {},
+    "poison_ivy": {},
+    "tanzanite": {},
+    "big_brown_mushroom": {},
+    "flower_lily": {},
+    "blood_pools": {},
+    "fire": {},
+    "sprouts": {},
+    "sapphire": {},
+    "glowshrooms": {
+      "with": {
+        "block": "biomesoplenty:mushroom",
+        "properties": {
+          "variant": "glowshroom"
+        }
+      },
+      "generationAttempts": 64,
+      "amountPerChunk": 1.5,
+      "enable": true
+    },
+    "flowers": {},
+    "clover_patches": {},
+    "gravel": {
+      "with": {
+        "block": "minecraft:gravel",
+        "properties": {}
+      },
+      "maxRadius": 7,
+      "amountPerChunk": 4.0,
+      "enable": true
+    },
+    "magma_splatter": {},
+    "lava_flows": {},
+    "stone_splatter": {},
+    "hive": {},
+    "hot_springs": {},
+    "medium_lily": {},
+    "brown_mushrooms": {},
+    "poison_lakes": {},
+    "big_red_mushroom": {},
+    "algae": {},
+    "stone_formations": {},
+    "small_lily": {},
+    "wild_rice": {},
+    "flax": {
+      "with": {
+        "block": "biomesoplenty:double_plant",
+        "properties": {
+          "half": "lower",
+          "variant": "flax"
+        }
+      },
+      "generationAttempts": 6,
+      "amountPerChunk": 0.1,
+      "enable": true,
+      "withTop": {
+        "block": "biomesoplenty:double_plant",
+        "properties": {
+          "half": "upper",
+          "variant": "flax"
+        }
+      }
+    },
+    "tiny_cacti": {},
+    "dead_bushes": {},
+    "ice_pools": {},
+    "rafflesia": {},
+    "grass": {
+      "amountPerChunk": 0.6,
+      "enable": true,
+      "generators": {}
+    },
+    "peridot": {
+      "enable": true
+    },
+    "desert_sprouts": {},
+    "cacti": {},
+    "double_cattail": {},
+    "leaves_clusters": {},
+    "crystals": {},
+    "dunegrass": {},
+    "hard_ice_splatter": {},
+    "emeralds": {},
+    "eyebulbs": {},
+    "double_fern": {},
+    "snow_splatter": {},
+    "quicksand": {},
+    "amber": {},
+    "cobblestone_splatter": {},
+    "kelp": {},
+    "malachite": {},
+    "water_reeds": {
+      "with": {
+        "block": "biomesoplenty:plant_1",
+        "properties": {
+          "variant": "reed"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 0.3,
+      "enable": true
+    },
+    "stone_patches": {},
+    "blue_coral": {},
+    "bushes": {},
+    "ice_crystals": {},
+    "mud_patches": {},
+    "thorns": {},
+    "dead_leaf_piles": {},
+    "shrubs": {},
+    "glowstone_crystals": {},
+    "glowing_coral": {},
+    "lava_lakes": {},
+    "portobellos": {
+      "with": {
+        "block": "biomesoplenty:mushroom",
+        "properties": {
+          "variant": "portobello"
+        }
+      },
+      "generationAttempts": 16,
+      "amountPerChunk": 0.3,
+      "enable": true
+    },
+    "vinesState": {},
+    "grass_splatter": {},
+    "koru": {},
+    "blue_milk_caps": {},
+    "tiny_lily": {},
+    "red_mushrooms": {},
+    "lavender": {},
+    "flat_mushroom": {},
+    "roots": {
+      "with": {
+        "block": "biomesoplenty:plant_1",
+        "properties": {
+          "variant": "root"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 4.0,
+      "enable": true
+    },
+    "biome_essence": {},
+    "orange_coral": {},
+    "sacred_oak_trees": {},
+    "toadstools": {},
+    "sand": {
+      "with": {
+        "block": "minecraft:sand",
+        "properties": {
+          "variant": "sand"
+        }
+      },
+      "maxRadius": 7,
+      "amountPerChunk": 3.0,
+      "enable": true
+    },
+    "mud": {},
+    "river_cane": {
+      "minHeight": 1,
+      "with": {
+        "block": "biomesoplenty:plant_1",
+        "properties": {
+          "variant": "rivercane"
+        }
+      },
+      "generationAttempts": 24,
+      "amountPerChunk": 1.0,
+      "maxHeight": 3,
+      "enable": true,
+      "randomDirection": false
+    },
+    "amethyst": {},
+    "kelp_tall": {},
+    "overgrown_stone_patches": {},
+    "topaz": {},
+    "bromeliad": {},
+    "glowshrooms_surface": {},
+    "pink_coral": {},
+    "lakes": {
+      "liquid": {
+        "block": "minecraft:water",
+        "properties": {
+          "level": "0"
+        }
+      },
+      "amountPerChunk": 0.2,
+      "enable": true,
+      "frozenLiquid": {
+        "block": "minecraft:ice",
+        "properties": {}
+      },
+      "grassBorderWith": {
+        "block": "minecraft:grass",
+        "properties": {
+          "snowy": "false"
+        }
+      }
+    },
+    "leaf_piles": {},
+    "melons": {},
+    "miners_delight": {
+      "with": {
+        "block": "biomesoplenty:flower_1",
+        "properties": {
+          "variant": "miners_delight"
+        }
+      },
+      "generationAttempts": 64,
+      "amountPerChunk": 0.25,
+      "enable": true
+    },
+    "large_oak": {},
+    "boulders": {},
+    "ivy": {},
+    "ruby": {},
+    "netherrack_splatter": {},
+    "sugar_cane": {
+      "minHeight": 1,
+      "with": {
+        "block": "minecraft:reeds",
+        "properties": {
+          "age": "0"
+        }
+      },
+      "generationAttempts": 24,
+      "amountPerChunk": 4.0,
+      "maxHeight": 3,
+      "enable": true,
+      "randomDirection": false
+    },
+    "dead_grass": {},
+    "berry_bushes": {},
+    "lily": {},
+    "desertgrass": {}
+  },
+  "weights": {
+    "cool_temperate": 7,
+    "wet_temperate": 3
+  }
+}

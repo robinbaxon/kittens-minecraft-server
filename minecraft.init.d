@@ -1,26 +1,27 @@
- #!/bin/bash
- # /etc/init.d/minecraft
- # version 0.4.0 2015-04-20 (YYYY-MM-DD)
- #
- ### BEGIN INIT INFO
- # Provides:   minecraft
- # Required-Start: $local_fs $remote_fs screen-cleanup
- # Required-Stop:  $local_fs $remote_fs
- # Should-Start:   $network
- # Should-Stop:    $network
- # Default-Start:  2 3 4 5
- # Default-Stop:   0 1 6
- # Short-Description:    Minecraft server
- # Description:    Starts the minecraft server
- ### END INIT INFO
+#!/bin/bash
+# /etc/init.d/minecraft
+# version 0.4.0 2015-04-20 (YYYY-MM-DD)
+#
+
+### BEGIN INIT INFO
+# Provides:   minecraft
+# Required-Start: $local_fs $remote_fs screen-cleanup
+# Required-Stop:  $local_fs $remote_fs
+# Should-Start:   $network
+# Should-Stop:    $network
+# Default-Start:  2 3 4 5
+# Default-Stop:   0 1 6
+# Short-Description:    Minecraft server
+# Description:    Starts the minecraft server
+### END INIT INFO
  
  #Settings
  SERVICE='ftbserver.jar'
  OPTIONS='nogui'
  USERNAME='minecraft'
  WORLD='world'
- MCPATH='/home/minecraft/'
- BACKUPPATH='/minecraft-backup'
+ MCPATH='/home/minecraft/minecraft'
+ BACKUPPATH='/home/minecraft/minecraft-backup'
  MAXHEAP=1800
  MINHEAP=1024
  HISTORY=1024

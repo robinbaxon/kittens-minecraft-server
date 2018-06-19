@@ -1,0 +1,194 @@
+{
+  "enableRain": true,
+  "canGenerateRivers": false,
+  "rainfall": 0.2,
+  "skyColor": -1,
+  "guiColour": 6645093,
+  "fogDensity": 1.0,
+  "hasBiomeEssence": true,
+  "variationBelow": 50.0,
+  "variationAbove": 50.0,
+  "waterColor": 16777215,
+  "seaFloorBlock": {
+    "block": "minecraft:dirt",
+    "properties": {
+      "snowy": "false",
+      "variant": "dirt"
+    }
+  },
+  "fillerBlock": {
+    "block": "biomesoplenty:ash_block",
+    "properties": {}
+  },
+  "averageHeight": 120.0,
+  "topBlock": {
+    "block": "biomesoplenty:ash_block",
+    "properties": {}
+  },
+  "fogColor": -1,
+  "temperature": 1.2,
+  "canGenerateVillages": false,
+  "canSpawnInBiome": false,
+  "enableSnow": false,
+  "generators": {
+    "cattail": {},
+    "oases": {},
+    "trees": {},
+    "poison_ivy": {},
+    "tanzanite": {},
+    "big_brown_mushroom": {},
+    "flower_lily": {},
+    "blood_pools": {},
+    "fire": {},
+    "sprouts": {},
+    "sapphire": {},
+    "glowshrooms": {
+      "with": {
+        "block": "biomesoplenty:mushroom",
+        "properties": {
+          "variant": "glowshroom"
+        }
+      },
+      "generationAttempts": 64,
+      "amountPerChunk": 1.5,
+      "enable": true
+    },
+    "flowers": {},
+    "clover_patches": {},
+    "gravel": {},
+    "magma_splatter": {},
+    "lava_flows": {
+      "with": {
+        "block": "minecraft:flowing_lava",
+        "properties": {
+          "level": "0"
+        }
+      },
+      "amountPerChunk": 0.1,
+      "enable": true,
+      "splotchSize": 12
+    },
+    "stone_splatter": {},
+    "hive": {},
+    "hot_springs": {},
+    "medium_lily": {},
+    "brown_mushrooms": {},
+    "poison_lakes": {},
+    "big_red_mushroom": {},
+    "algae": {},
+    "stone_formations": {},
+    "small_lily": {},
+    "wild_rice": {},
+    "flax": {},
+    "tiny_cacti": {},
+    "dead_bushes": {},
+    "ice_pools": {},
+    "rafflesia": {},
+    "grass": {},
+    "peridot": {},
+    "desert_sprouts": {},
+    "cacti": {},
+    "double_cattail": {},
+    "leaves_clusters": {},
+    "crystals": {},
+    "dunegrass": {},
+    "hard_ice_splatter": {},
+    "emeralds": {},
+    "eyebulbs": {},
+    "double_fern": {},
+    "snow_splatter": {},
+    "quicksand": {},
+    "amber": {},
+    "cobblestone_splatter": {},
+    "kelp": {},
+    "malachite": {},
+    "water_reeds": {},
+    "stone_patches": {},
+    "blue_coral": {},
+    "bushes": {},
+    "ice_crystals": {},
+    "mud_patches": {},
+    "thorns": {},
+    "dead_leaf_piles": {},
+    "shrubs": {},
+    "glowstone_crystals": {},
+    "lava_lakes": {
+      "lineWith": {
+        "block": "minecraft:stone",
+        "properties": {
+          "variant": "stone"
+        }
+      },
+      "liquid": {
+        "block": "minecraft:lava",
+        "properties": {
+          "level": "0"
+        }
+      },
+      "amountPerChunk": 2.5,
+      "enable": true
+    },
+    "glowing_coral": {},
+    "portobellos": {},
+    "vinesState": {},
+    "grass_splatter": {},
+    "koru": {},
+    "blue_milk_caps": {},
+    "tiny_lily": {},
+    "red_mushrooms": {},
+    "lavender": {},
+    "flat_mushroom": {},
+    "roots": {
+      "with": {
+        "block": "biomesoplenty:plant_1",
+        "properties": {
+          "variant": "root"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 4.0,
+      "enable": true
+    },
+    "biome_essence": {},
+    "orange_coral": {},
+    "sacred_oak_trees": {},
+    "toadstools": {},
+    "sand": {},
+    "mud": {},
+    "river_cane": {},
+    "amethyst": {},
+    "kelp_tall": {},
+    "overgrown_stone_patches": {},
+    "topaz": {},
+    "bromeliad": {},
+    "glowshrooms_surface": {},
+    "pink_coral": {},
+    "lakes": {},
+    "leaf_piles": {},
+    "melons": {},
+    "miners_delight": {
+      "with": {
+        "block": "biomesoplenty:flower_1",
+        "properties": {
+          "variant": "miners_delight"
+        }
+      },
+      "generationAttempts": 64,
+      "amountPerChunk": 0.25,
+      "enable": true
+    },
+    "large_oak": {},
+    "boulders": {},
+    "ivy": {},
+    "ruby": {
+      "enable": true
+    },
+    "netherrack_splatter": {},
+    "dead_grass": {},
+    "sugar_cane": {},
+    "berry_bushes": {},
+    "lily": {},
+    "desertgrass": {}
+  },
+  "weights": {}
+}

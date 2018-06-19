@@ -1,0 +1,185 @@
+{
+  "enableRain": false,
+  "wallBlock": {
+    "block": "minecraft:soul_sand",
+    "properties": {}
+  },
+  "rainfall": 0.0,
+  "skyColor": -1,
+  "guiColour": 11091006,
+  "fogDensity": 1.0,
+  "roofTopBlock": {
+    "block": "minecraft:netherrack",
+    "properties": {}
+  },
+  "hasBiomeEssence": false,
+  "waterColor": 16777215,
+  "fillerBlock": {
+    "block": "minecraft:soul_sand",
+    "properties": {}
+  },
+  "topBlock": {
+    "block": "minecraft:soul_sand",
+    "properties": {}
+  },
+  "fogColor": -1,
+  "temperature": 2.0,
+  "roofFillerBlock": {
+    "block": "minecraft:netherrack",
+    "properties": {}
+  },
+  "enableSnow": false,
+  "generators": {
+    "cattail": {},
+    "oases": {},
+    "trees": {},
+    "poison_ivy": {},
+    "tanzanite": {},
+    "big_brown_mushroom": {},
+    "flower_lily": {},
+    "blood_pools": {},
+    "fire": {},
+    "sprouts": {},
+    "sapphire": {},
+    "glowshrooms": {},
+    "flowers": {},
+    "clover_patches": {},
+    "gravel": {},
+    "magma_splatter": {},
+    "lava_flows": {},
+    "stone_splatter": {},
+    "hive": {
+      "maxRadius": 9,
+      "bottomExtra": 4,
+      "amountPerChunk": 0.2,
+      "enable": true,
+      "halfHeight": 7,
+      "emptyChance": 0.25,
+      "layerSize": 3
+    },
+    "hot_springs": {},
+    "medium_lily": {},
+    "brown_mushrooms": {},
+    "poison_lakes": {},
+    "big_red_mushroom": {},
+    "algae": {},
+    "stone_formations": {},
+    "small_lily": {},
+    "wild_rice": {},
+    "flax": {},
+    "tiny_cacti": {},
+    "dead_bushes": {},
+    "ice_pools": {},
+    "rafflesia": {},
+    "grass": {},
+    "peridot": {},
+    "desert_sprouts": {},
+    "cacti": {},
+    "double_cattail": {},
+    "leaves_clusters": {},
+    "crystals": {},
+    "dunegrass": {},
+    "hard_ice_splatter": {},
+    "emeralds": {},
+    "eyebulbs": {},
+    "double_fern": {},
+    "snow_splatter": {},
+    "quicksand": {},
+    "bramble": {
+      "with": {
+        "block": "biomesoplenty:bramble_plant",
+        "properties": {
+          "down": "false",
+          "east": "false",
+          "north": "false",
+          "south": "false",
+          "up": "false",
+          "west": "false"
+        }
+      },
+      "generationAttempts": 128,
+      "amountPerChunk": 40.0,
+      "maxHeight": 6,
+      "enable": true,
+      "minLength": 15,
+      "maxLength": 30
+    },
+    "amber": {},
+    "cobblestone_splatter": {},
+    "kelp": {},
+    "malachite": {},
+    "water_reeds": {},
+    "stone_patches": {},
+    "blue_coral": {},
+    "bushes": {},
+    "ice_crystals": {},
+    "mud_patches": {},
+    "thorns": {
+      "with": {
+        "block": "biomesoplenty:plant_1",
+        "properties": {
+          "variant": "thorn"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 3.0,
+      "enable": true
+    },
+    "dead_leaf_piles": {},
+    "shrubs": {},
+    "glowstone_crystals": {},
+    "glowing_coral": {},
+    "lava_lakes": {},
+    "portobellos": {},
+    "vinesState": {},
+    "grass_splatter": {},
+    "koru": {},
+    "blue_milk_caps": {},
+    "tiny_lily": {},
+    "red_mushrooms": {},
+    "lavender": {},
+    "flat_mushroom": {},
+    "biome_essence": {},
+    "orange_coral": {},
+    "roots": {},
+    "sacred_oak_trees": {},
+    "toadstools": {},
+    "sand": {},
+    "mud": {},
+    "river_cane": {},
+    "amethyst": {},
+    "kelp_tall": {},
+    "overgrown_stone_patches": {},
+    "topaz": {},
+    "bromeliad": {},
+    "glowshrooms_surface": {},
+    "pink_coral": {},
+    "lakes": {},
+    "leaf_piles": {},
+    "melons": {},
+    "large_oak": {},
+    "miners_delight": {},
+    "boulders": {},
+    "ivy": {},
+    "ruby": {},
+    "netherrack_splatter": {},
+    "dead_grass": {
+      "with": {
+        "block": "biomesoplenty:plant_0",
+        "properties": {
+          "variant": "deadgrass"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 5.0,
+      "enable": true
+    },
+    "sugar_cane": {},
+    "berry_bushes": {},
+    "lily": {},
+    "desertgrass": {}
+  },
+  "weights": {
+    "hell": 5
+  }
+}

@@ -1,11 +1,20 @@
 #!/bin/sh
 
-cd "$(dirname "$0")"
-. ./settings.sh
+# Fix work directory
+# Some GUIs set wrong working directory which breaks relative paths
+cd -- "$(dirname "$0")"
 
 # makes things easier if script needs debugging
-if [ x$FTB_VERBOSE = xyes ]; then
+if [ x${FTB_VERBOSE} = xyes ]; then
     set -x
+fi
+
+# Read pack related settings from external setting file
+. ./settings.sh
+
+# Read settings defined by local server admin
+if [ -f settings-local.sh ]; then
+    . ./settings-local.sh
 fi
 
 # cleaner code
@@ -14,17 +23,18 @@ eula_false() {
     return $?
 }
 
+# cleaner code 2
 start_server() {
-    "$JAVACMD" -server -Xms512M -Xmx2048M -XX:PermSize=256M -XX:+UseParNewGC -XX:+CMSIncrementalPacing -XX:+CMSClassUnloadingEnabled -XX:ParallelGCThreads=2 -XX:MinHeapFreeRatio=5 -XX:MaxHeapFreeRatio=10 -jar FTBServer-1.7.10-1558.jar nogui
+    "$JAVACMD" -server -Xmx${MAX_RAM} ${JAVA_PARAMETERS} -jar ${FORGEJAR} nogui
 }
 
 # run install script if MC server or launchwrapper s missing
-if [ ! -f $JARFILE -o ! -f libraries/$LAUNCHWRAPPER ]; then
+if [ ! -f ${JARFILE} -o ! -f libraries/${LAUNCHWRAPPER} ]; then
     echo "Missing required jars. Running install script!"
     sh ./FTBInstall.sh
 fi
 
-# check if there is eula.txt and if it has correct content
+# check eula.txt
 if [ -f eula.txt ] && eula_false ; then
     echo "Make sure to read eula.txt before playing!"
     echo "To exit press <enter>"
@@ -32,7 +42,7 @@ if [ -f eula.txt ] && eula_false ; then
     exit
 fi
 
-# inform user if eula.txt not found
+# if eula.txt is missing inform user and start MC to create eula.txt
 if [ ! -f eula.txt ]; then
     echo "Missing eula.txt. Startup will fail and eula.txt will be created"
     echo "Make sure to read eula.txt before playing!"
