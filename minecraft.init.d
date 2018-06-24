@@ -16,7 +16,7 @@
 ### END INIT INFO
  
  #Settings
- SERVICE='ftbserver.jar'
+ SERVICE='FTBserver-1.12.2-14.23.4.2709-universal.jar'
  OPTIONS='nogui'
  USERNAME='minecraft'
  WORLD='world'

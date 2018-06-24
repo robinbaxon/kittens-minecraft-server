@@ -73,7 +73,7 @@
             "action" :
             {
                 "type" : "openLink",
-				"link" : "https://forum.feed-the-beast.com/forum/272/"
+				"link" : "https://github.com/ftbteam/ftb-presents-direwolf20-1.12/issues"
             }
         },
         "changelog":
@@ -187,7 +187,7 @@
     "labels":
     {
 		"modpack":{
-			"text" : "FTB Presents Direwolf20 1.12 v1.11.0",
+			"text" : "FTB Presents Direwolf20 1.12 v2.0.0",
             "posX" : 3,
             "posY" : -31,
 			"fontSize" : 0.6,
